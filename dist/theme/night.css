@@ -1,9 +1,9 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:700";@import "https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic";
 :root{
-    --r-background:#2b2b2b;
-    --r-background-color:#111;
+    --r-background:#a2a2a2;
+    --r-background-color:#dddddd;
     --r-main-font:"Open Sans", sans-serif;
-    --r-main-font-size:40px;--r-main-color:#fff;
+    --r-main-font-size:40px;--r-main-color:#232323;
     --r-block-margin:20px;--r-heading-margin:0 0 20px 0;
     --r-heading-font:"Montserrat", Impact, sans-serif;
     --r-heading-color:#e7ad52;--r-heading-line-height:1.2;
@@ -62,7 +62,7 @@
         .reveal ul ul ul{list-style-type:circle}
         .reveal ul ul,.reveal ul ol,.reveal ol ol,.reveal ol ul{margin-left:40px;display:block}
         .reveal dt{font-weight:700}.reveal dd{margin-left:40px}
-        .reveal blockquote{width:70%;margin:var(--r-block-margin) auto;background:#ffffff0d;padding:5px;font-style:italic;display:block;position:relative;box-shadow:0 0 2px #0003}
+        .reveal blockquote{width:80%;margin:var(--r-block-margin) auto;background:#4e4e4e24;padding:5px;font-style:italic;display:block;position:relative;box-shadow:0 0 2px #0003}
         .reveal blockquote p:first-child,.reveal blockquote p:last-child{display:inline-block}
         .reveal q{font-style:italic}
         .reveal pre{width:90%;margin:var(--r-block-margin) auto;text-align:left;font-size:.55em;font-family:var(--r-code-font);word-wrap:break-word;line-height:1.2em;display:block;position:relative;box-shadow:0 5px 15px #00000026}
@@ -87,7 +87,7 @@
 
             .button{
         padding: 10px;
-        background-color: #383838;
+        background-color: #4e4e4e;
         border: solid 5px #e7ad52;
         color: #fff;
         border-radius: 15px;
@@ -96,7 +96,7 @@
 
     .button:hover{
         padding: 10px;
-        background-color: #383838;
+        background-color: #4e4e4e;
         border: solid 5px #e7ad52;
         color: #fff;
         border-radius: 15px;
